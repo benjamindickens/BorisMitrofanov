@@ -306,7 +306,7 @@ p {
   } */
 
   h1 {
-    font-size: 4.25rem;
+    font-size: 5rem;
   }
   .cloud {
     width: 5.5rem;
@@ -316,9 +316,10 @@ p {
   }
   .bottom {
     left: 1rem;
-    top: 18rem;
+    top: 20rem;
   }
   .top {
+    top: 2.5rem;
     right: 3rem;
   }
 }

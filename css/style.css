@@ -234,6 +234,7 @@ p {
   grid-template-columns: repeat(3, minmax(80px, 1fr));
 }
 .footer-link {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   text-decoration: none;
   color: #f8f3d4;
@@ -241,6 +242,7 @@ p {
 }
 .bottom-container p {
   color: #40514e;
+  font-size: 0.75rem;
   /* text-shadow: none; */
 }
 

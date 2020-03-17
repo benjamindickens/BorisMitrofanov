@@ -244,46 +244,46 @@ p {
   /* text-shadow: none; */
 }
 
-/* height PHONE*/
+/* height PHONE +2 dly perfect*/
 /* one plus 7 */
 @media only screen and (max-height: 900px) and (max-width: 450px) {
   .sizer {
-    height: 40vh;
+    height: 38vh;
   }
 }
 /* pixel */
 @media only screen and (max-height: 850px) and (max-width: 500px) {
   .sizer {
-    height: 36vh;
+    height: 34vh;
   }
 }
 /* i phone 10 */
 @media only screen and (max-height: 820px) and (max-width: 500px) {
   .sizer {
-    height: 37vh;
+    height: 35vh;
   }
 }
 @media only screen and (max-height: 740px) and (max-width: 500px) {
   .sizer {
-    height: 27vh;
+    height: 25vh;
   }
 }
 /* i phone 6 7 8 */
 @media only screen and (max-height: 680px) and (max-width: 500px) {
   .sizer {
-    height: 24vh;
+    height: 22vh;
   }
 }
 /* galaxy 5 */
 @media only screen and (max-height: 650px) and (max-width: 500px) {
   .sizer {
-    height: 22vh;
+    height: 20vh;
   }
 }
 /* i phone 5 */
 @media only screen and (max-height: 570px) and (max-width: 500px) {
   .sizer {
-    height: 19vh;
+    height: 17vh;
   }
 }
 /* width */

@@ -275,7 +275,7 @@ p {
 }
 /* height PHONE*/
 /* one plus 7 */
-@media only screen and (max-height: 900px) and (max-width: 500px) {
+@media only screen and (max-height: 900px) and (max-width: 450px) {
   .sizer {
     height: 40vh;
   }

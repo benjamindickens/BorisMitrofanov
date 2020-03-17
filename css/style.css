@@ -39,6 +39,9 @@ h2 {
 /* mountain */
 
 .img-container {
+  /* height: 100vh;
+  align-content: center;
+  align-items: end; */
   display: grid;
   max-width: 598px;
   margin: 0 auto;
@@ -85,6 +88,7 @@ h2 {
 }
 /* containers */
 .top-container {
+  align-content: end;
   max-width: 700px;
   margin: 0 auto;
   position: relative;
@@ -269,7 +273,43 @@ p {
     right: 4rem;
   }
 }
-
+/* height PHONE*/
+/* pixel */
+@media only screen and (max-height: 850px) and (max-width: 500px) {
+  .sizer {
+    height: 36vh;
+  }
+}
+/* i phone 10 */
+@media only screen and (max-height: 820px) and (max-width: 500px) {
+  .sizer {
+    height: 37vh;
+  }
+}
+@media only screen and (max-height: 740px) and (max-width: 500px) {
+  .sizer {
+    height: 27vh;
+  }
+}
+/* i phone 6 7 8 */
+@media only screen and (max-height: 680px) and (max-width: 500px) {
+  .sizer {
+    height: 24vh;
+  }
+}
+/* galaxy 5 */
+@media only screen and (max-height: 650px) and (max-width: 500px) {
+  .sizer {
+    height: 22vh;
+  }
+}
+/* i phone 5 */
+@media only screen and (max-height: 570px) and (max-width: 500px) {
+  .sizer {
+    height: 19vh;
+  }
+}
+/* width */
 @media only screen and (max-width: 675px) {
   .cloud {
     width: 8rem;

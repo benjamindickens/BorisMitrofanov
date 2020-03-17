@@ -236,11 +236,11 @@ p {
 .footer-link {
   text-align: center;
   text-decoration: none;
-  color: #f6416c;
+  color: #f8f3d4;
   text-shadow: 1px 0 1px black;
 }
 .bottom-container p {
-  color: #f8f3d4;
+  color: #40514e;
   /* text-shadow: none; */
 }
 

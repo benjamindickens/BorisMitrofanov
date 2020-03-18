@@ -8,7 +8,7 @@
   max-width: 100%;
 }
 body {
-  background: #00b8a9;
+  background-color: #40514e;
   width: 100%;
   font-family: "Montserrat", sans-serif;
 }
@@ -29,8 +29,10 @@ h2 {
   color: #ffde7d;
 }
 .main-grid {
+  opacity: 0.9;
   display: grid;
   grid-gap: 30px;
+  background: seashell;
 }
 /* logo */
 .logo-h2 {
@@ -54,7 +56,6 @@ h2 {
   border-top: 8px solid #653614;
   width: 97%;
   margin: 0 auto;
-  box-shadow: 0 0 10px #4d863e;
 }
 /* .hr-top2 {
   border-style: none;
@@ -95,7 +96,7 @@ h2 {
   padding-top: 80px;
   display: grid;
   text-align: center;
-  background-color: #00b8a9;
+  background-color: seashell;
 }
 .middle-container h2,
 p {
@@ -104,12 +105,12 @@ p {
 .middle-container {
   line-height: 2;
   color: #40514e;
-  /* text-shadow: 1px 0 1px black; */
+  /* text-shadow: 1px 0 1px black; #00b8a9  #f8f3d4 */
   background: linear-gradient(
-    #00b8a9 0%,
-    #f8f3d4 25%,
-    #f8f3d4 80%,
-    #00b8a9 100%
+    seashell 0%,
+    #00b8a9 25%,
+    #00b8a9 80%,
+    seashell 100%
   );
   text-align: center;
   display: grid;
@@ -174,7 +175,7 @@ p {
 /* hr lines */
 .hr-skill {
   border-style: none;
-  border-top: 8px dotted #00b8a9;
+  border-top: 8px dotted seashell;
   width: 10%;
   max-width: 70px;
   margin: 0 auto;
@@ -183,6 +184,9 @@ p {
 /* contact me */
 .contact-me {
   padding: 0 20px 50px 20px;
+}
+.contact-me p {
+  max-width: 540px;
 }
 /* button */
 .btn {
@@ -226,7 +230,7 @@ p {
   display: grid;
   grid-gap: 30px;
   height: 9.37rem;
-  background: #00b8a9;
+  background: seashell;
   text-align: center;
 }
 .links {
@@ -237,55 +241,81 @@ p {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   text-decoration: none;
-  color: #f8f3d4;
-  text-shadow: 1px 0 1px black;
+  color: #00b8a9;
+  text-shadow: 1px 0 0 black;
+}
+.footer-link:hover {
+  color: #f6416c;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 .bottom-container p {
   color: #40514e;
   font-size: 0.75rem;
   /* text-shadow: none; */
 }
+/* solution for fucking browser searching */
+
+/* @supports (-webkit-appearance:none) {
+  .os-android & {
+    min-height: calc(100vh - 56px);
+  }
+} */
 
 /* height PHONE +5 dly perfect*/
 /* one plus 7 */
 @media only screen and (max-height: 900px) and (max-width: 450px) {
-  .sizer {
-    height: 35vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 /* pixel */
 @media only screen and (max-height: 850px) and (max-width: 500px) {
-  .sizer {
-    height: 31vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 /* i phone 10 */
 @media only screen and (max-height: 820px) and (max-width: 500px) {
-  .sizer {
-    height: 32vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 @media only screen and (max-height: 740px) and (max-width: 500px) {
-  .sizer {
-    height: 22vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 /* i phone 6 7 8 */
 @media only screen and (max-height: 680px) and (max-width: 500px) {
-  .sizer {
-    height: 19vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 /* galaxy 5 */
 @media only screen and (max-height: 650px) and (max-width: 500px) {
-  .sizer {
-    height: 17vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 /* i phone 5 */
 @media only screen and (max-height: 570px) and (max-width: 500px) {
-  .sizer {
-    height: 14vh;
+  .mountain {
+    display: grid;
+    align-items: end;
+    min-height: calc(100vh - 352px);
   }
 }
 /* width */

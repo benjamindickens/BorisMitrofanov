@@ -29,10 +29,10 @@ h2 {
   color: #ffde7d;
 }
 .main-grid {
-  opacity: 0.9;
+  /* opacity: 0.9; */
   display: grid;
   grid-gap: 30px;
-  background: seashell;
+  background: #87ceeb;
 }
 /* logo */
 .logo-h2 {
@@ -96,7 +96,7 @@ h2 {
   padding-top: 80px;
   display: grid;
   text-align: center;
-  background-color: seashell;
+  background-color: #87ceeb;
 }
 .middle-container h2,
 p {
@@ -107,10 +107,10 @@ p {
   color: #40514e;
   /* text-shadow: 1px 0 1px black; #00b8a9  #f8f3d4 */
   background: linear-gradient(
-    seashell 0%,
-    #00b8a9 25%,
-    #00b8a9 80%,
-    seashell 100%
+    #87ceeb 0%,
+    #f0f6f7ff 25%,
+    #f0f6f7ff 80%,
+    #87ceeb 100%
   );
   text-align: center;
   display: grid;
@@ -175,7 +175,7 @@ p {
 /* hr lines */
 .hr-skill {
   border-style: none;
-  border-top: 8px dotted seashell;
+  border-top: 8px dotted #87ceeb;
   width: 10%;
   max-width: 70px;
   margin: 0 auto;
@@ -194,16 +194,16 @@ p {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  color: #ffde7d;
+  color: #f6416c;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
   padding: 0.2rem 1.3rem;
-  background-color: #f6416c;
-  box-shadow: 1px 0 10px #ffde7d;
-  -webkit-box-shadow: 1px 0 10px #ffde7d;
-  -moz-box-shadow: 1px 0 10px #ffde7d;
-  border: solid #ffde7d 1px;
+  background-color: #ffde7d;
+  box-shadow: 1px 0 10px #f6416c;
+  -webkit-box-shadow: 1px 0 10px #f6416c;
+  -moz-box-shadow: 1px 0 10px #f6416c;
+  border: solid #f6416c 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -212,16 +212,16 @@ p {
 
 .btn:hover {
   transition: 0.6s;
-  box-shadow: 1px 0 10px #f6416c;
-  -webkit-box-shadow: 1px 0 10px #f6416c;
-  -moz-box-shadow: 1px 0 10px #f6416c;
-  background: #ffde7d;
-  border: solid #f6416c 1px;
+  box-shadow: 1px 0 10px #ffde7d;
+  -webkit-box-shadow: 1px 0 10px #ffde7d;
+  -moz-box-shadow: 1px 0 10px #ffde7d;
+  background: #f6416c;
+  border: solid #ffde7d 1px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   text-decoration: none;
-  color: #f6416c;
+  color: #ffde7d;
 }
 
 /* footer */
@@ -230,7 +230,7 @@ p {
   display: grid;
   grid-gap: 30px;
   height: 9.37rem;
-  background: seashell;
+  background: #87ceeb;
   text-align: center;
 }
 .links {
@@ -241,7 +241,7 @@ p {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   text-decoration: none;
-  color: #00b8a9;
+  color: #f0f6f7ff;
   text-shadow: 1px 0 0 black;
 }
 .footer-link:hover {
@@ -268,7 +268,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 /* pixel */
@@ -276,7 +276,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 /* i phone 10 */
@@ -284,14 +284,14 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 @media only screen and (max-height: 740px) and (max-width: 500px) {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 /* i phone 6 7 8 */
@@ -299,7 +299,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 /* galaxy 5 */
@@ -307,7 +307,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 /* i phone 5 */
@@ -315,7 +315,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 352px);
+    min-height: calc(100vh - 356px);
   }
 }
 /* width */

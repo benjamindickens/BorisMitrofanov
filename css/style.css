@@ -268,7 +268,8 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 /* pixel */
@@ -276,7 +277,8 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 /* i phone 10 */
@@ -284,14 +286,16 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 @media only screen and (max-height: 740px) and (max-width: 500px) {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 /* i phone 6 7 8 */
@@ -299,7 +303,8 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 /* galaxy 5 */
@@ -307,7 +312,8 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 /* i phone 5 */
@@ -315,7 +321,8 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    min-height: calc(100vh - 356px);
+    height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(100vh - 356px); */
   }
 }
 /* width */

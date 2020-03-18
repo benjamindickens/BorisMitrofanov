@@ -268,7 +268,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
     /* min-height: calc(100vh - 356px); */
   }
 }
@@ -277,7 +277,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
     /* min-height: calc(100vh - 356px); */
   }
 }
@@ -286,7 +286,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
     /* min-height: calc(100vh - 356px); */
   }
 }
@@ -294,7 +294,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
     /* min-height: calc(100vh - 356px); */
   }
 }
@@ -303,7 +303,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
     /* min-height: calc(100vh - 356px); */
   }
 }
@@ -312,7 +312,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
     /* min-height: calc(100vh - 356px); */
   }
 }
@@ -321,7 +321,7 @@ p {
   .mountain {
     display: grid;
     align-items: end;
-    height: calc(var(--vh, 1vh) * 100 - 356px);
+    height: calc(var(--vh, 1vh) * 100 - 304px);
 
     /* min-height: calc(100vh - 356px); */
   }

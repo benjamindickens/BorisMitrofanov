@@ -39,6 +39,11 @@ h2 {
   font-weight: normal;
 }
 /* mountain */
+.mountain {
+  height: 65vh;
+  display: grid;
+  align-items: end;
+}
 
 .img-container {
   /* height: 100vh;
@@ -254,7 +259,7 @@ p {
   font-size: 0.75rem;
   /* text-shadow: none; */
 }
-/* solution for fucking browser searching */
+/* solution for fucking rowser searching */
 
 /* @supports (-webkit-appearance:none) {
   .os-android & {
